@@ -4,12 +4,13 @@ import subprocess
 
 
 def start_server():
-    subprocess.Popen(["python", "server7.py"])
+    subprocess.Popen(["python", "serverlast.py"])
     time.sleep(1)
 
 
 def start_client():
-    subprocess.run(["python", "client7.py"])
+    subprocess.run(["python", "clientlast.py"])
+
 
 
 if __name__ == "__main__":
